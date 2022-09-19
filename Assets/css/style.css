@@ -8,7 +8,7 @@ fieldset {
   
   }
 
-  textarea, input[type=text] { 
+  input[type=text], input[type=number]  { 
     padding: 12px;
     margin: 0.4em 0;
     width: 100%;
@@ -18,9 +18,17 @@ fieldset {
     box-shadow: inset 0px 0px 1px #ccc;
   }
 
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+   }
+   
   #confirm {
-    color: #eee;
-    background-color: ;
+    color: #fff;
+    background-color: #85b3b9;
+    font-size: 1em;
+    text-transform: uppercase;
     display: flex;
     width: 100%;
     padding: 1em;
