@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: sans-serif;
-    background-color: #376b6f;
+    background-color: #85b3b9;
 }
 #gallery img{
     width: 100%;
