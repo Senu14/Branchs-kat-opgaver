@@ -1,4 +1,30 @@
 
+.location{
+    display: flex;
+    justify-content: center;
+    gap: 0 1em;
+    font-family: sans-serif;
+}
+.location figcaption{
+    background-color: #376b6f;
+    width: 30%;
+}
+.location img{
+    width: 40%;
+}
+.location p{
+    font-size: 1.4vw;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+.location h2{
+    font-size: 1.7vw;
+    color: antiquewhite;
+    margin-left: 0.8em;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
 #gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -116,4 +142,3 @@ body{
     color: #eee;
     list-style: none;
 }
-
