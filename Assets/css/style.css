@@ -1,13 +1,12 @@
 
 .location{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0 1em;
     font-family: sans-serif;
 }
 .location figcaption{
     background-color: #376b6f;
-    width: 30%;
 }
 .location img{
     width: 40%;
