@@ -1,0 +1,30 @@
+body{
+    font-family:"Akaya Telivigala", cursive ;
+    background-color:whitesmoke;
+    display: grid;
+
+}
+.container-main{
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+   box-sizing: border-box;
+}
+
+
+
+ article{
+    padding: 1em;
+    background-color: #85b3b9;
+    
+ }
+ .cards figure{
+    background-color: #dae6ec;
+    display: grid;
+    grid-template-columns: 40% auto;
+    padding: 1em;
+    gap: 1em;
+}
+.cards img{
+    width: 100% ;
+}
