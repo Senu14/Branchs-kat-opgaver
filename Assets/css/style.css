@@ -1,9 +1,9 @@
 fieldset {
     margin: auto;
-    background-color: #fff;
+    background-color: antiquewhite;
     padding: 2em;
     width: 20em;
-    border: solid 3px #4d97c0;
+    border: solid 3px #376b6f;
     border-radius: 2%;
   
   }
@@ -19,6 +19,8 @@ fieldset {
   }
 
   #confirm {
+    color: #eee;
+    background-color: ;
     display: flex;
     width: 100%;
     padding: 1em;
