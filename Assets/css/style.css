@@ -1,0 +1,18 @@
+.main-footer {
+    background-color: #273e4a;
+    padding: 1em;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.39);
+}
+
+.main-footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-footer ul li {
+    font-size: 1.2em;
+    color: #eee;
+    list-style: none;
+}
+
